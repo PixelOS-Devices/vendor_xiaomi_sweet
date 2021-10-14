@@ -3173,8 +3173,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libmpbase",
                 "libcdsprpc",
-                "libarcsoft_hta",
-                "libhta_hexagon_runtime",
+                "libOpenCL",
                 "liblog",
                 "libc",
                 "libm",
