@@ -1898,7 +1898,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libarcsoft_super_night_raw.so"],
-			shared_libs: ["libmpbase", "libcdsprpc", "libarcsoft_hta", "libhta_hexagon_runtime", "liblog", "libc", "libm", "libdl", ],
+			shared_libs: ["libmpbase", "libcdsprpc", "libOpenCL", "liblog", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
