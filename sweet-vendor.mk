@@ -83,7 +83,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     DeviceInfo \
     QtiTelephonyService \
-    datastatusnotification \
     embms \
     dpmserviceapp \
     ims \
