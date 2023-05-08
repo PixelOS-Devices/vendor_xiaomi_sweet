@@ -314,8 +314,10 @@ PRODUCT_PACKAGES += \
     libhdmiedid \
     libhfp \
     libpn553_fw \
+    libqtigef \
     libsndmonitor \
     libspkrprot \
+    libxlog \
     com.qti.sensor.sweet_gc02m1 \
     com.qti.sensor.sweet_imx355 \
     com.qti.sensor.sweet_imx471_front \
