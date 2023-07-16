@@ -36,6 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet/proprietary/vendor/etc/camera/com.xiaomi.dcal.wu.golden.64m:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.wu.golden.64m \
     vendor/xiaomi/sweet/proprietary/vendor/etc/camera/eisoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eisoverridesettings.txt \
     vendor/xiaomi/sweet/proprietary/vendor/etc/camera/eyelineblush.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eyelineblush.cng \
+    vendor/xiaomi/sweet/proprietary/vendor/etc/camera/facedetectpp_0_5_2_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/facedetectpp_0_5_2_model \
     vendor/xiaomi/sweet/proprietary/vendor/etc/camera/golden_rear_dc_cal_wu.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_rear_dc_cal_wu.bin \
     vendor/xiaomi/sweet/proprietary/vendor/etc/camera/hdr_ui9_params.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hdr_ui9_params.config \
     vendor/xiaomi/sweet/proprietary/vendor/etc/camera/lf_facerank_model.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/lf_facerank_model.bin \
@@ -261,6 +262,7 @@ PRODUCT_PACKAGES += \
     com.qti.chi.override \
     fingerprint.fortsense.sm6150 \
     fingerprint.fpc.sm6150 \
+    libFaceDetectpp-0.5.2 \
     libFaceGrade \
     libPSNPE \
     libSNPE \
@@ -299,6 +301,7 @@ PRODUCT_PACKAGES += \
     libcom.qti.chinodeutils \
     libdualcam_optical_zoom_control \
     libdualcam_video_optical_zoom \
+    libfacedet \
     libft2vendor \
     libhta \
     libhta_hexagon_runtime \
