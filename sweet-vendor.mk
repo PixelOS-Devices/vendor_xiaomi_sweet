@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet/proprietary/vendor/etc/camera/golden_rear_dc_cal_wu.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_rear_dc_cal_wu.bin \
     vendor/xiaomi/sweet/proprietary/vendor/etc/camera/hdr_ui9_params.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hdr_ui9_params.config \
     vendor/xiaomi/sweet/proprietary/vendor/etc/camera/lf_facerank_model.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/lf_facerank_model.bin \
+    vendor/xiaomi/sweet/proprietary/vendor/etc/camera/facedetectpp_0_5_2_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/facedetectpp_0_5_2_model \
     vendor/xiaomi/sweet/proprietary/vendor/etc/camera/mibokeh_712_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_712_opencl.bin \
     vendor/xiaomi/sweet/proprietary/vendor/etc/camera/mibokeh_712_parameter.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_712_parameter.bin \
     vendor/xiaomi/sweet/proprietary/vendor/etc/camera/sceneDetection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sceneDetection.xml \
@@ -261,6 +262,7 @@ PRODUCT_PACKAGES += \
     consumerir.sm6150 \
     fingerprint.fpc.sm6150 \
     libFaceGrade \
+    libFaceDetectpp-0.5.2 \
     libPSNPE \
     libSNPE \
     libVDClearShot \
@@ -300,6 +302,7 @@ PRODUCT_PACKAGES += \
     libhta \
     libhta_hexagon_runtime \
     libhvx_interface \
+    libfacedet \
     libmiai_portraitsupernight \
     libmialgo_fs \
     libmialgo_ie_capture \
