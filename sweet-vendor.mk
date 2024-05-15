@@ -279,6 +279,7 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     com.qti.chi.override \
     consumerir.sm6150 \
+    fingerprint.fortsense.sm6150 \
     fingerprint.fpc.sm6150 \
     libFaceDetectpp-0.5.2 \
     libFaceGrade \
@@ -372,6 +373,7 @@ PRODUCT_PACKAGES += \
     sensors.ssc \
     sensors.touch \
     vendor.dolby.hardware.dms@2.0-impl \
+    vendor.sw.swfingerprint@2.0 \
     capi_v2_aptX_CLHDAD_Encoder \
     capi_v2_aptX_Classic \
     capi_v2_aptX_HD \
