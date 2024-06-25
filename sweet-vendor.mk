@@ -325,6 +325,7 @@ PRODUCT_PACKAGES += \
     librelight_only \
     libremosaic_wrapper \
     libremosaiclib \
+    libril-qc-hal-qmi \
     libsdk_sr \
     libsensorcal \
     libsensorslog \
@@ -356,6 +357,7 @@ PRODUCT_PACKAGES += \
     sensors.mius.proximity \
     sensors.ssc \
     sensors.touch \
+    vendor.qti.hardware.radio.qcriNvOpt@1.0 \
     vendor.sw.swfingerprint@2.0 \
     capi_v2_aptX_CLHDAD_Encoder \
     capi_v2_aptX_Classic \
