@@ -2510,6 +2510,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libril-qc-hal-qmi",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libril-qc-hal-qmi.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libsdk_sr",
 	owner: "xiaomi",
 	strip: {

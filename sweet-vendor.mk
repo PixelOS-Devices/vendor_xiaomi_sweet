@@ -325,6 +325,7 @@ PRODUCT_PACKAGES += \
     librelight_only \
     libremosaic_wrapper \
     libremosaiclib \
+    libril-qc-hal-qmi \
     libsdk_sr \
     libsensorcal \
     libsensorslog \
