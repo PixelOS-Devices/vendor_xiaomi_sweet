@@ -193,6 +193,7 @@ PRODUCT_PACKAGES += \
     libaudio_log_utils \
     libaudioparsers \
     libaudioroute_ext \
+    libcirrusspkrprot \
     libdeccfg \
     libhdmiedid \
     libhfp \
